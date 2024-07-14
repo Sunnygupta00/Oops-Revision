@@ -1,0 +1,32 @@
+Java Exceptions
+An exception is an unexpected event that occurs during program execution. It
+affects the flow of the program instructions which can cause the program to
+terminate abnormally.
+An exception can occur for many reasons. Some of them are:
+• Invalid user input
+• Device failure
+• Loss of network connection
+• Physical limitations (out, of disk memory)
+• Code errors
+
+// types of exception are : 1) user defined 2) Predefined
+
+Java Runtime Exceptions
+A runtime exception happens due to a programming error. They are also known
+as unchecked exceptions.
+These exceptions are not checked at compile-time but run-time. Some of the
+common runtime exceptions are:
+• Null pointer access (missing the initialization of a variable) - Pull up for precise seeking
+NullPointerException
+• Out-of-bounds array access - ArrayIndexOutOfBounds!
+• Dividing a number by 0 - ArithmeticException
+You can think about it in this way. "If it is a runtime exception,
+it is vour fault"
+
+Java lOException Exceptions
+An I Exception is also known as a checked exception. They are checked by
+the compiler at the compile-time and the programmer is prompted to handle
+these exceptions.
+Some of the examples of checked exceptions are:
+• Trying to open a file that doesn't exist results in FileNotFoundException
+• Trying to read past the end of a file
