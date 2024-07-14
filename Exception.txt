@@ -30,3 +30,12 @@ these exceptions.
 Some of the examples of checked exceptions are:
 • Trying to open a file that doesn't exist results in FileNotFoundException
 • Trying to read past the end of a file
+
+try(){
+ // code
+}
+catch(Exception e){
+ // handle exception
+}finally{
+  // it will execute whether code runs or not
+}
